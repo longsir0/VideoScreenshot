@@ -16,8 +16,10 @@ function read_all($dir)
 * desription 获得视频文件的缩略图，默认截取第一秒第一帧
 * @param sting $file 视频路径
 * @param int $time 第几帧（默认为第一帧：1）
-*/
-getVideoCover()
+
+ */
+
+function getVideoCover()
 
 //创建图片名称
 get_image_mp4_path()
@@ -29,12 +31,16 @@ video_mkdir()
 * desription 压缩图片
 * @param sting $imgsrc 图片路径
 * @param string $imgdst 压缩后保存路径
-*/
-compressed_image($imgsrc,$imgdst)
+
+ */
+
+function compressed_image($imgsrc,$imgdst)
 
 /**
  * desription 判断是否gif动画
  * @param sting $image_file图片路径
  * @return boolean t 是 f 否
+
  */
-check_gifcartoon($image_file)
+
+function check_gifcartoon($image_file)
