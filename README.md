@@ -12,6 +12,8 @@ video.php，自动读取所设定目录下所有视频文件，并批量生成�
 
 function read_all($dir)
 
+
+
 /**
 * desription 获得视频文件的缩略图，默认截取第一秒第一帧
 * @param sting $file 视频路径
@@ -21,11 +23,15 @@ function read_all($dir)
 
 function getVideoCover()
 
+
+
 //创建图片名称
 get_image_mp4_path()
 
 //判断文件夹是否存在，不存在则创建文件夹
 video_mkdir()
+
+
 
 /**
 * desription 压缩图片
@@ -35,6 +41,8 @@ video_mkdir()
  */
 
 function compressed_image($imgsrc,$imgdst)
+
+
 
 /**
  * desription 判断是否gif动画
