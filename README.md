@@ -5,9 +5,10 @@ video.php，自动读取所设定目录下所有视频文件，并批量生成�
 需要用到的方法：
 
 /**
-* desription 读取目录下所有文件
-* @param sting $dir 目录路径
+*desription 读取目录下所有文件
+*@param sting $dir 目录路径
 */
+
 read_all($dir)
 
 /**
