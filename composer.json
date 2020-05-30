@@ -1,3 +1,5 @@
 {
-  "name":"longsir0/video-screenshot"
+  "name":"longsir0/video-screenshot",
+  
+  "minimum-stability": "dev"
 }
