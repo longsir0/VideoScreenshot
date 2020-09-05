@@ -4,6 +4,7 @@ video.php，自动读取所设定目录下所有视频文件，并批量生成�
 
 需要用到ffmpeg工具：
 （使用下面宝塔的脚本安装，很省心，静静的等待安装完成即可）
+
 wget http://download.bt.cn/install/ext/ffmpeg.sh && sh ffmpeg.sh
 
 需要用到的方法：
